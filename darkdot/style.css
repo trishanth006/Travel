@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a, .book-btn {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.book-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('pexels-kaiwalya-limaye-1997844793-29188005.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    max-width: 600px;
+}
+
+.overlay h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.overlay p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.search-location, .search-date {
+    border: none;
+    padding: 10px;
+    flex: 1;
+    outline: none;
+    font-size: 1em;
+}
+
+.search-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p {
+    color: whitesmoke;
+}
