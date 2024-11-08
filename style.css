@@ -5,7 +5,7 @@
 }
 
 body, html {
-    font-family: Arial, sans-serif;
+    font-family: "poppies", sans-serif;
     overflow-x: hidden;
 }
 
@@ -14,7 +14,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -23,12 +23,13 @@ body, html {
     font-size: 1.5em;
     color: #333;
     font-weight: bold;
+    padding-left: 8px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .nav-links a, .book-btn {
@@ -107,3 +108,25 @@ body, html {
 p {
     color: whitesmoke;
 }
+.search input{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+i{
+    position: relative;
+    left: 1.8rem;
+}
+.search{
+    width: 360px;
+    height: 35px;
+    background-color: #d1d6da;
+    border-radius: 15px;
+}
+
+
