@@ -52,13 +52,17 @@ body, html {
 .hero {
     position: relative;
     height: 100vh;
-    background-image: url('pexels-kaiwalya-limaye-1997844793-29188005.jpeg'); 
+    /* background-image: url('pexels-kaiwalya-limaye-1997844793-29188005.jpeg');  */
     background-size: cover;
     background-position: center;
-    display: flex;
+    text-align: center;
+    background-color:#F7EFE0;
+}
+
+.hero-1{
+        display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .overlay {
@@ -130,7 +134,7 @@ i{
     background-color: #d1d6da;
     border-radius: 15px;
 }
-.cards {
+.card {
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
@@ -145,7 +149,7 @@ i{
   }
 
   .card-content {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -158,7 +162,9 @@ i{
   .card-content p {
     font-size: 16px;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 48px;
   }
   
   .button {
@@ -174,10 +180,24 @@ i{
   .button:hover {
     background-color: #e04e53;
   }
-  .places{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
+  .cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+  .hero-0{
+    padding-top: 30px;
+    height: 100px;
+  }
+  .title{
+    font-family: "Sour Gummy", serif;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  .hero-0 p{
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
   }
 
 
