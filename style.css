@@ -111,9 +111,9 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
 }
-p {
+/* p {
     color: whitesmoke;
-}
+} */
 .search input{
     position: relative;
     left: 20px;
